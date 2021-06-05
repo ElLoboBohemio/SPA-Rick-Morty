@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
-
 :root {
   --amarillo: #cfff5c;
   --azul: #02707f;
@@ -139,6 +137,7 @@ a {
   .characters-item {
     width: 90px;
   }
+
   .characters-item h2 {
     font-size: 14px;
   }
