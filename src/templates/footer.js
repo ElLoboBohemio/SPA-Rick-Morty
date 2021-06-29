@@ -13,7 +13,7 @@ const Footer = async() => {
   const view = `
   <div class="Footer-pages">
     <h4>All Pages</h4>
-    <div class="pages__a">
+    <div class="pages__div">
       ${numberPages.map(() => 
       `<a href="#/?page=${++a}/">${a}</a>`
       ).join('')}

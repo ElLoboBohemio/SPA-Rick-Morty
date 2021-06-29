@@ -139,9 +139,15 @@ a {
   text-decoration: none;
 }
 
-.pages__a {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+.pages__div {
+  display: flex;
+  margin: 0 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pages__div > a {
+  padding: 0 10px;
 }
 
 @keyframes fade {
