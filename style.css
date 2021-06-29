@@ -3,12 +3,39 @@
   --azul: #02707f;
 }
 
+/*SCROLL-BAR*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--azul);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--azul);
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
   color: var(--azul);
   font-family: "Open Sans", sans-serif;
   background-image: url("https://i.postimg.cc/bvfjyjQv/space.jpg");
+  font-size: clamp(0.9rem, 1.3vw, 1.5rem);
 }
 
 h1,
@@ -86,6 +113,12 @@ a {
   animation-duration: 2s;
   animation-name: fade;
   background-color: var(--azul);
+
+  transition: all 0.5s;
+}
+
+.characters-item:hover {
+  transform: scale(1.05);
 }
 
 .characters-item img {
