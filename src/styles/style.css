@@ -3,6 +3,32 @@
   --azul: #02707f;
 }
 
+/*SCROLL-BAR*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--azul);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--azul);
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
