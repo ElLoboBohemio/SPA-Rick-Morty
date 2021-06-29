@@ -113,6 +113,12 @@ a {
   animation-duration: 2s;
   animation-name: fade;
   background-color: var(--azul);
+
+  transition: all 0.5s;
+}
+
+.characters-item:hover {
+  transform: scale(1.05);
 }
 
 .characters-item img {
