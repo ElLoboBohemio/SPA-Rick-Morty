@@ -9,6 +9,7 @@ body {
   color: var(--azul);
   font-family: "Open Sans", sans-serif;
   background-image: url("https://i.postimg.cc/bvfjyjQv/space.jpg");
+  font-size: clamp(0.9rem, 1.3vw, 1.5rem);
 }
 
 h1,
